@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body {
+    background: url(./img-1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.todolist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 520px;
+    min-height: 600px; 
+    background: transparent;
+    text-align: center;
+    margin: 128px auto; 
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+h1 {
+    margin: 32px 0;
+    color:darkgoldenrod;
+    font-size: 24px;
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.todo-form {
+    margin-bottom: 32px;
+}
+
+.todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid goldenrod;
+    outline: none; 
+    width: 320px; 
+    background: whitesmoke; 
+    color: darkslategrey; 
+}
+
+.todo-button {
+    padding: 16px;
+    border: none; 
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: goldenrod;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.todo-input.edit {
+    border: 2px solid darksalmon;
+    background: salmon;
+}
+
+.todo-button.edit {
+    background: darksalmon;
+    padding: 16px 22px;
+    margin-top: 32px;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: darkslategrey; 
+    background: lightseagreen;
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
+
+
+#item-row-colored {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: white; 
+    font-weight: bolder;
+    background: rgb(209, 86, 86);
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
+
+#item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: darkslategrey; 
+    background: lightseagreen;
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
